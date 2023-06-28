@@ -31,9 +31,6 @@ class LlamaConversation(Conversation):
         )
 
     def get_prompt(self) -> str:
-        return "".join([text for role, text in self.messages])
-
-    def get_prompt(self) -> str:
         prompt = self.system_prompt
         for role, text in self.messages:
             if text:

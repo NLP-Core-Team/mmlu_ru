@@ -34,6 +34,17 @@ MMLU dataset covers 57 different tasks. Each task requires to choose the right a
 
 ## Evals
 
+|  model      | paper, MMLU EN | MMLU EN, k=5, ctx=2048 | MMLU RU, k=5, ctx=2048 |
+| :---------- | -------------: | ---------------------: | ---------------------: |
+| Llama 1 7B  | 35.1	         | 36.18	                | 31.65                  |
+| Llama 1 13B	| 46.9	         | 48.81	                | 38.03                  |
+| Llama 1 33B	| 57.8	         | 59.63	                | 49.06                  |
+| Llama 1 65B	| 63.4	         | 65.21	                | 53.96                  |
+| Llama 2 7B  | 45.3		       | 47.87		              | 37.86                  |
+| Llama 2 13B	| 54.8		       | 56.96		              | 45.29                  |
+| Llama 2 34B	| 62.6 	         | unk	                  | unk                    |
+| Llama 2 70B	| 68.9           | 71.16		              | 62.86                  |
+
 Please note the scores may slightly vary (vs other evals), but inter-model comparison should be stable.
 
 

@@ -53,7 +53,7 @@ Please note the scores may slightly vary (vs other evals), but inter-model compa
 - Original https://github.com/hendrycks/test
 - Helpful https://github.com/EleutherAI/lm-evaluation-harness/pull/497
 - Also some evals https://github.com/declare-lab/instruct-eval/blob/cc25984f8529db9d5627cec52ed2fba7081d521a/mmlu.py#L219
-
+- Investigation of several evals https://huggingface.co/blog/evaluating-mmlu-leaderboard
 
 ## Contributions
 
